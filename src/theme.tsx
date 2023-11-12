@@ -6,20 +6,22 @@ const theme = extendTheme({
     'priority.high': '#E32C1E',
     'priority.medium': '#FF9800',
     'priority.low': '#24A148',
+    neural: {
+      20: '#F4F5F7',
+      30: '#EBECF0',
+      40: '#DFE1E6',
+      200: '#6B778C',
+      800: '#172B4D',
+      900: '#091E42',
+      n100: '#7A869A',
+    },
+    accent: '#0065FF',
 
-    checkBoxColor: {
-      50: '#0065FF',
-      100: '#0065FF',
-      200: '#0065FF',
-      300: '#0065FF',
-      400: '#0065FF',
-      500: '#0065FF',
-      600: '#0065FF',
-      700: '#0065FF',
-      800: '#0065FF',
-      900: '#0065FF',
+    texts: {
+      primary: '#091E42',
     },
   },
+
   components: {
     Button: {
       baseStyle: () => ({
@@ -27,6 +29,26 @@ const theme = extendTheme({
         backgroundColor: '#0065FF',
         color: 'white',
         borderRadius: '4px',
+        fontWeight: 400,
+      }),
+    },
+    IconButton: {
+      baseStyle: () => ({
+        bg: 'unset',
+      }),
+    },
+    FormLabel: {
+      baseStyle: () => ({
+        marginTop: '16px',
+        fontSize: '12px',
+        color: '#42526E',
+      }),
+    },
+    TabList: {
+      baseStyle: () => ({
+        tab: {
+          fontWeight: 700,
+        },
       }),
     },
   },

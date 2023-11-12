@@ -8,6 +8,8 @@
  * resets or base stylesheets can be applied.
  *
  * @see https://styled-components.com/docs/api
+ *
+ * TODO: IDK why this exists, it should be modified directly in theme
  */
 import {createGlobalStyle} from 'styled-components';
 
@@ -31,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
      font-size: 100%;
      font: inherit;
      vertical-align: baseline;
-     background-color: #E5E5E5;
+     
      color: #091E42;
    }
    html, body, #root{
@@ -69,6 +71,7 @@ const GlobalStyle = createGlobalStyle`
      font-family: Open-Sans, Helvetica, Sans-Serif;
      font-size: 16px;
      height: 100%;
+     
    }
  `;
 

@@ -1,5 +1,52 @@
 {
   "app.title": "Carvago Frontend Assignment",
   "app.description": "Assignment in React.js for developers who want to join our team.",
-  "welcome.message": "Welcome to Carvago Front-End Assignment"
+  "welcome.message": "Welcome to Carvago Front-End Assignment",
+  "common": {
+    "saveButton": "Save",
+    "cancelButton": "Cancel"
+  },
+  "TodosPage": {
+    "AddSectionInlineDialog": {
+      "sectionTitle": "Section title",
+      "saveButton": "Save",
+      "cancelButton": "Cancel",
+      "addSection": "Add section"
+    },
+    "AddTaskInlineDialog": {
+      "placeholder": "Add task",
+      "addButton": "Add"
+    },
+    "SectionItem": {
+      "actions": {
+        "markAllDone": "Mark all done",
+        "edit": "Edit",
+        "deleteList": "Delete list"
+      },
+      "tabs": {
+        "all": "All",
+        "todo": "To do",
+        "done": "Done"
+      }
+    },
+    "TaskEditDialog": {
+      "taskNameRequired": "Task name is required",
+      "descriptionPlaceholder": "Write a detailed description of the task",
+      "priority": "Priority",
+      "createdBy": "Created by Petr Michalík • Created date: {{date}} • {{time}}"
+    },
+    "TaskItem": {
+      "actions": {
+        "edit": "Edit task",
+        "delete": "Delete"
+      }
+    },
+    "SectionListPanel": {
+      "showAllTasks": "Show all tasks",
+      "viewCompletedTasks": "View completed tasks",
+      "viewTodoItems": "View to-do items",
+      "clearAll": "Clear all",
+      "clearAllDoneTasks": "Clear all done tasks"
+    }
+  }
 }
